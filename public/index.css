@@ -1,0 +1,117 @@
+html,
+body {
+  height: 100%;
+}
+body {
+    margin: 15rem;
+    font-family: 'Roboto', sans-serif;
+    background-color: #E3E9FF;
+    color: #6c6c6c;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.header {
+    width: 100%;
+    background-color: #AF7EEB;
+    border-radius: 0px;
+    padding: 15px;
+    text-align: center;
+}
+.todo-list, .completed-list {
+    padding: 10px 20px;
+}
+li {
+    list-style-type: none;
+}
+.panel {
+    width: 32.5%;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0px 3px 20px #cfd4e7;
+}
+#title {
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.title {
+    margin: 0px 0px 20px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333333;
+}
+#todo-list {
+    padding: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+#todo-title {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 5px;
+    line-height: 1.1;
+}
+#new-task-form {
+    padding: 10px;
+}
+#add-todo-btn {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #AF7EEB;
+    background-color: #AF7EEB;
+    color: white;
+    font-size: 14px;
+    font-weight: 600
+}
+.clickable {
+    cursor: pointer;
+}
+h4 {
+    margin: 0px;
+}
+.padding-top-20 {
+    padding-top: 20px;
+}
+.form-control {
+    padding: 3px 9px;
+    height: 44px;
+    margin-left: 5px;
+}
+.form-control-edit {
+    width: 100%;
+}
+.text-right {
+    text-align: right;
+}
+.custom-checkbox {
+    accent-color: #AF7EEB;
+    color: #AF7EEB;
+    height: 17px;
+    width: 17px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    cursor: pointer;
+} 
+.material-symbols-outlined {
+    font-size: 20px!important;
+    color: #333;
+}
+.expand {
+    font-size: 30px!important;
+    margin-left: 18px;
+}
+.completed {
+    text-decoration: line-through;    
+}
+.padding-top-10 {
+    padding-top: 10px;
+}
+.padding-10 {
+    padding: 20px 10px 20px 0px;
+}
